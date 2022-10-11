@@ -1,0 +1,24 @@
+table
+{
+	
+	width: 73%;
+	
+}
+
+.ans
+{
+	font-size: 1.5rem;
+	
+}
+
+td
+{
+	text-align: center;
+	border:  2px solid darkred;
+}
+
+fieldset
+	{
+	background-color: blueviolet;
+	width : 70%
+}
