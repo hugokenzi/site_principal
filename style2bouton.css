@@ -1,0 +1,44 @@
+h1{
+	color: blue;
+	font-family: verdana;
+	font-size: 1em;
+}
+
+button{
+	border: 2px solid blue;
+	border-radius: 26px;
+	text-align: center;
+	padding: 5px;
+	background-color: blue;
+	width: 100px;
+	margin :5px;
+}
+
+div{
+	border: 2px solid blue;
+	border-radius: 26px;
+	margin-left: 37%;
+	margin-right: 30%;
+	padding: 2%;
+	width: 300px;
+
+}
+
+body{
+	background-color: black;
+	text-align: center;
+}
+
+button:hover{
+	color:  blue;
+	background-color: black;
+
+}
+
+input{
+	border-radius:26px ;
+	background-color: black	;
+	border: 2px solid blue;
+	font-size: 1.5em;
+
+}

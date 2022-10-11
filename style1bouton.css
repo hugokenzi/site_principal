@@ -1,0 +1,36 @@
+h1{
+	color: yellow;
+	font-family: verdana;
+	font-size: 2em;
+}
+
+button{
+	border: 2px solid yellowgreen;
+	border-radius: 26px;
+	text-align: center;
+	padding: 15px 32px;
+	background-color: yellow;
+	margin-top: 2%;
+	width: 300px;
+}
+
+div{
+	border: 2px solid yellow;
+	border-radius: 26px;
+	margin-left: 37%;
+	margin-right: 30%;
+	padding: 2%;
+	width: 300px;
+
+}
+
+body{
+	background-color: black;
+	text-align: center;
+}
+
+button:hover{
+	color:  yellow;
+	background-color: black;
+
+}
