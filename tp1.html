@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+</head>
+<body bgcolor="grey">
+
+<script type="text/javascript">
+	function calcul_moyenne()
+	{
+		var note1=prompt("Donner la première note:");
+		var note2=prompt("Donner la deuxième note:");
+		var note3=prompt("Donner la troisième note:");
+
+		var somme = note1*2 + note2*3 + note3*3;
+		document.write("Voici la somme : " + somme + "    ");
+
+		var moyenne = somme/8
+		document.write("Voici la moyenne : " + moyenne + "    ");
+
+		if (moyenne>=10)
+			document.write("Vous êtes admis.");
+		else
+			document.write("Vous êtes redoublant.");
+	}
+
+	function age_test()
+	{
+		var age = prompt("Donner votre âge.");
+
+		if(age>100 || age<=0)
+		{
+			alert("Attention, âge invalide.");
+			document.bgColor="red";
+		}
+
+		else
+		{
+			alert("Âge valide.");
+			document.bgColor="green";
+		}
+	}
+
+	function simple_affichage()
+	{
+		var prenom=prompt("Donner votre prénom.");
+		var nom=prompt("Donner votre nom");
+		document.write("<div style='border:2px solid blue; background-color:yellow; width:20%; height:5%; margin:auto; text-align:center; padding-top:15px; font-size:1em; border-radius:10px;'>");
+		document.write( "<p1 style='color:red';> Bonjour, " + prenom + "    " + nom + "</p1>");
+		document.write("</div>");
+	}
+
+	function changer_couleur()
+	{
+		var couleur=prompt("Veuillez choisir une couleur.")
+		if (couleur=="rouge" || couleur=="Rouge" || couleur=="ROUGE")
+			document.bgColor="red";
+
+		else if (couleur== "bleu" || couleur=="Bleu" || couleur=="BLEU")
+			document.bgColor="blue";
+
+		else if (couleur== "vert" || couleur=="Vert" || couleur=="VERT")
+			document.bgColor="green";
+
+		else
+			alert("Couleur invalide.")
+	}
+
+</script>
+
+<center>
+<h1> 4 Exercices en Javascript </h1>
+<button onclick="calcul_moyenne()">Calculer la moyenne</button>
+<button onclick="age_test()">Tester l'âge</button>
+<button onclick="simple_affichage()">Affichage simple</button>
+<button onclick="changer_couleur()">Couleur</button>
+<center>
+</body>
+</html>

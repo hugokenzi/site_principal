@@ -1,0 +1,41 @@
+    <style type="text/css">
+    h1{
+        color:black;
+    }
+    h2{
+        color: red;
+    }
+    p{ 
+        color:blue;
+        font-size:1.5rem;text-align:justify;
+    }
+    div{
+    
+        background-color: white;
+        border: 3px solid red;
+        border-radius: 6px;
+        width:95%;
+        padding: 1%;
+    }
+    .c2{
+        background-color: green
+        border: 3px solid green
+        border-radius: 6px
+        width: 95%
+        padding: 1%
+    }
+    .c3{
+        background-color: green
+        border: 3px solid green
+        border-radius: 6px
+        width: 95%
+        padding: 1%
+    }
+    .c4{
+        background-color: green
+        border: 3px solid green
+        border-radius: 6px
+        width: 95%
+        padding: 1%
+    }
+    </style>
