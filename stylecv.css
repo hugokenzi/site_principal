@@ -38,4 +38,8 @@
         width: 95%
         padding: 1%
     }
-    </style>
+    
+
+    body{
+        background-color: green;
+    }
