@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<script type="text/javascript">
+		function swit ()
+		{
+			v1=document.f1.a1.value;
+			v2=document.f1.a2.value;
+
+			document.f1.a1.value=v2;
+			document.f1.a2.value=v1;
+		}
+	</script>
+</head>
+<body>
+	<form name="f1">
+	Valeur 1 : <input type="text" name="a1" id="a1">
+	Valeur 2 : <input type="text" name="a2" id="a2">
+	<input type="button" name="b1" value="Permuter" onclick="swit()">
+	</form>
+</body>
+</html>
