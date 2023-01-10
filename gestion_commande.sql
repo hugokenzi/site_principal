@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Serveur: 127.0.0.1
--- Généré le : Mar 10 Janvier 2023 à 14:26
+-- Généré le : Mar 10 Janvier 2023 à 14:55
 -- Version du serveur: 5.5.10
 -- Version de PHP: 5.3.6
 
@@ -63,6 +63,10 @@ CREATE TABLE IF NOT EXISTS `client` (
 -- Contenu de la table `client`
 --
 
+INSERT INTO `client` (`client_id`, `client_civilite`, `client_nom`, `client_prenom`, `client_dep`, `client_ville`, `n_tel`) VALUES
+(646, 'Homme', 'Hich', 'Ou', 94, 'Val-de-marne', 785693214),
+(679, 'Homme', 'Zo', 'Huy', 75, 'Paris', 688774455),
+(995, 'Femme', 'Myriam', 'Ololo', 75, 'Paris', 688445599);
 
 -- --------------------------------------------------------
 
@@ -86,6 +90,10 @@ CREATE TABLE IF NOT EXISTS `commande` (
 -- Contenu de la table `commande`
 --
 
+INSERT INTO `commande` (`com_num`, `com_client`, `com_date`, `com_montant`, `client_id`, `produit_ref`) VALUES
+(647, 666, 2022, 599, 646, 989),
+(894, 718, 2020, 399, 995, 499),
+(8491, 843, 2019, 599, 679, 642);
 
 -- --------------------------------------------------------
 
@@ -110,6 +118,10 @@ CREATE TABLE IF NOT EXISTS `produit` (
 -- Contenu de la table `produit`
 --
 
+INSERT INTO `produit` (`produit_ref`, `produit_nom`, `produit_prix`, `produit_poids`, `produit_vues`, `produit_stock`, `produit_code`, `num_categorie`) VALUES
+(499, 'Chien', 2000, 31, 5, 2, 303, 33),
+(642, 'PS5-Tortue', 59990, 100, 100000, 2, 654, 23),
+(989, 'Chat', 1000, 7, 400, 3, 899, 65);
 
 --
 -- Contraintes pour les tables exportées
