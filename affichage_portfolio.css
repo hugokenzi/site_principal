@@ -1,0 +1,12 @@
+.scroller {
+    width: 70%;
+    height: 80%;
+    overflow-y: scroll;
+    scrollbar-color: rebeccapurple green;
+    scrollbar-width: thin;
+  }
+
+  .flotte {
+    float:right;
+    margin: 20px;
+    }
